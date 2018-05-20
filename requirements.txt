@@ -1,0 +1,8 @@
+numpy==1.14.2
+textblob==0.15.1
+tweepy==3.6.0
+pandas==0.22.0
+Flask==0.12.2
+scikit_learn==0.19.1
+watson_developer_cloud
+scipy
