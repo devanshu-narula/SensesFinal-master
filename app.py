@@ -20,9 +20,9 @@ def reply():
          k="User you entered has not made any tweets recently."
          sample.append(" ")
      elif k=="depressed":
-         k="Person is depressed"
+         k="Person is Depressed"
      else:
-         k="Person is not depressed"
+         k="Person is not Depressed"
          
      try:
          return  render_template('out.html',plane=k, plane2=sample[1].to_html())
